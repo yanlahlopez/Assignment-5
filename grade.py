@@ -27,7 +27,7 @@ elif Percentage == "W":
 elif Percentage == "D":
     print("Description: Dropped")
 else:
-    percentage = int(Percentage)
+    percentage = float(Percentage)
     if percentage >= 97 and percentage <= 100:
         print("Grade/Mark: 1.0")
         print("Description: Excellent")
